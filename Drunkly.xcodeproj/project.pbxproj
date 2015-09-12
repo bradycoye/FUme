@@ -13,7 +13,7 @@
 		831C191E1A97F5CA000FD6D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831C191C1A97F5CA000FD6D0 /* Main.storyboard */; };
 		831C19201A97F5CA000FD6D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831C191F1A97F5CA000FD6D0 /* Images.xcassets */; };
 		831C19231A97F5CA000FD6D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831C19211A97F5CA000FD6D0 /* LaunchScreen.xib */; };
-		831C192F1A97F5CA000FD6D0 /* SwiftParseChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C192E1A97F5CA000FD6D0 /* SwiftParseChatTests.swift */; };
+		831C192F1A97F5CA000FD6D0 /* DrunklyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C192E1A97F5CA000FD6D0 /* DrunklyTests.swift */; };
 		831C19421A98085B000FD6D0 /* chat_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831C193B1A98085B000FD6D0 /* chat_blank@2x.png */; };
 		831C19431A98085B000FD6D0 /* messages_blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831C193C1A98085B000FD6D0 /* messages_blank@2x.png */; };
 		831C19451A98085B000FD6D0 /* tab_group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831C193E1A98085B000FD6D0 /* tab_group@2x.png */; };
@@ -121,7 +121,7 @@
 			containerPortal = 831C19091A97F5CA000FD6D0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 831C19101A97F5CA000FD6D0;
-			remoteInfo = SwiftParseChat;
+			remoteInfo = Drunkly;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -138,8 +138,8 @@
 		831C191F1A97F5CA000FD6D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		831C19221A97F5CA000FD6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		831C19281A97F5CA000FD6D0 /* DrunklyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrunklyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		831C192D1A97F5CA000FD6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		831C192E1A97F5CA000FD6D0 /* SwiftParseChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftParseChatTests.swift; sourceTree = "<group>"; };
+		831C192D1A97F5CA000FD6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../DrunklyTests/Info.plist; sourceTree = "<group>"; };
+		831C192E1A97F5CA000FD6D0 /* DrunklyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DrunklyTests.swift; path = ../DrunklyTests/DrunklyTests.swift; sourceTree = "<group>"; };
 		831C193B1A98085B000FD6D0 /* chat_blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_blank@2x.png"; sourceTree = "<group>"; };
 		831C193C1A98085B000FD6D0 /* messages_blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messages_blank@2x.png"; sourceTree = "<group>"; };
 		831C193E1A98085B000FD6D0 /* tab_group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_group@2x.png"; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 		831C19791A9823A8000FD6D0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		832554E71A9B39A60022F867 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		8348BEC61A9AB31500A50EE6 /* PushNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
-		8365C2D31A9C4B77003FB374 /* SwiftParseChat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftParseChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		8365C2D31A9C4B77003FB374 /* Drunkly-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drunkly-Bridging-Header.h"; sourceTree = "<group>"; };
 		8365C3911A9D77F0003FB374 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		83678F691AA94C1700A1C63E /* SelectMultipleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectMultipleViewController.swift; sourceTree = "<group>"; };
 		836AF4BA1A994C830057E827 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
@@ -376,7 +376,7 @@
 				831C19391A9807CF000FD6D0 /* Resources */,
 				831C19161A97F5CA000FD6D0 /* AppDelegate.swift */,
 				831C19791A9823A8000FD6D0 /* Constants.swift */,
-				8365C2D31A9C4B77003FB374 /* SwiftParseChat-Bridging-Header.h */,
+				8365C2D31A9C4B77003FB374 /* Drunkly-Bridging-Header.h */,
 				832554E71A9B39A60022F867 /* ChatViewController.swift */,
 				839A20EC1A99E9D7003248CE /* LoginViewController.swift */,
 				83C839A31A9977E3007AC2AC /* RegisterViewController.swift */,
@@ -389,8 +389,7 @@
 				831C19211A97F5CA000FD6D0 /* LaunchScreen.xib */,
 				831C19141A97F5CA000FD6D0 /* Supporting Files */,
 			);
-			name = Drunkly;
-			path = SwiftParseChat;
+			path = Drunkly;
 			sourceTree = "<group>";
 		};
 		831C19141A97F5CA000FD6D0 /* Supporting Files */ = {
@@ -404,11 +403,11 @@
 		831C192B1A97F5CA000FD6D0 /* DrunklyTests */ = {
 			isa = PBXGroup;
 			children = (
-				831C192E1A97F5CA000FD6D0 /* SwiftParseChatTests.swift */,
+				831C192E1A97F5CA000FD6D0 /* DrunklyTests.swift */,
 				831C192C1A97F5CA000FD6D0 /* Supporting Files */,
 			);
 			name = DrunklyTests;
-			path = SwiftParseChatTests;
+			path = DrunklyTests;
 			sourceTree = "<group>";
 		};
 		831C192C1A97F5CA000FD6D0 /* Supporting Files */ = {
@@ -766,7 +765,7 @@
 			dependencies = (
 			);
 			name = Drunkly;
-			productName = SwiftParseChat;
+			productName = Drunkly;
 			productReference = 831C19111A97F5CA000FD6D0 /* Drunkly.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -784,7 +783,7 @@
 				831C192A1A97F5CA000FD6D0 /* PBXTargetDependency */,
 			);
 			name = DrunklyTests;
-			productName = SwiftParseChatTests;
+			productName = DrunklyTests;
 			productReference = 831C19281A97F5CA000FD6D0 /* DrunklyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -999,7 +998,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831C192F1A97F5CA000FD6D0 /* SwiftParseChatTests.swift in Sources */,
+				831C192F1A97F5CA000FD6D0 /* DrunklyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1151,12 +1150,12 @@
 					"\"$(SRCROOT)/Frameworks\"/**",
 					"$(PODS_ROOT)/**",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftParseChat/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Drunkly/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Drunkly;
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftParseChat/SwiftParseChat-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Drunkly/Drunkly-Bridging-Header.h";
 				VALID_ARCHS = "armv7s armv7 arm64";
 			};
 			name = Debug;
@@ -1180,12 +1179,12 @@
 					"\"$(SRCROOT)/Frameworks\"/**",
 					"$(PODS_ROOT)/**",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftParseChat/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Drunkly/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Drunkly;
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftParseChat/SwiftParseChat-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Drunkly/Drunkly-Bridging-Header.h";
 				VALID_ARCHS = "armv7s armv7 arm64";
 			};
 			name = Release;
@@ -1202,10 +1201,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwiftParseChatTests/Info.plist;
+				INFOPLIST_FILE = DrunklyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = DrunklyTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftParseChat.app/SwiftParseChat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drunkly.app/Drunkly";
 			};
 			name = Debug;
 		};
@@ -1217,10 +1216,10 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwiftParseChatTests/Info.plist;
+				INFOPLIST_FILE = DrunklyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = DrunklyTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftParseChat.app/SwiftParseChat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drunkly.app/Drunkly";
 			};
 			name = Release;
 		};

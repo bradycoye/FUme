@@ -9,7 +9,7 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/AppDelegate.swift"
+            filePath = "Drunkly/AppDelegate.swift"
             timestampString = "463736769.385076"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -20,10 +20,10 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SwiftParseChat/AppDelegate.swift"
+            filePath = "Drunkly/AppDelegate.swift"
             timestampString = "463736772.21166"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -31,6 +31,84 @@
             endingLineNumber = "16"
             landmarkName = "AppDelegate"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Drunkly/AppDelegate.swift"
+            timestampString = "463748677.778677"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drunkly.AppDelegate.window.getter : Swift.Optional&lt;ObjectiveC.UIWindow&gt;"
+                  moduleName = "Drunkly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/james/Sites/Drunkly/Drunkly/AppDelegate.swift"
+                  timestampString = "463748810.559311"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drunkly.AppDelegate.window.setter : Swift.Optional&lt;ObjectiveC.UIWindow&gt;"
+                  moduleName = "Drunkly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/james/Sites/Drunkly/Drunkly/AppDelegate.swift"
+                  timestampString = "463748810.559463"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drunkly.AppDelegate.window.materializeForSet : Swift.Optional&lt;ObjectiveC.UIWindow&gt;"
+                  moduleName = "Drunkly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/james/Sites/Drunkly/Drunkly/AppDelegate.swift"
+                  timestampString = "463748810.55957"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drunkly.AppDelegate.init (Drunkly.AppDelegate.Type)() -&gt; Drunkly.AppDelegate"
+                  moduleName = "Drunkly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/james/Sites/Drunkly/Drunkly/AppDelegate.swift"
+                  timestampString = "463748810.559762"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
