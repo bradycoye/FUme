@@ -14,7 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         Parse.enableLocalDatastore()
         Parse.setApplicationId("ogp7ZOXdfBMU3shg5uSsu1344euuublshRUWKUXK", clientKey: "AFdE1EcTQD92ko7BzErUKWKQc7AYDJv70OJ2MIGp")
@@ -31,9 +30,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             application.registerUserNotificationSettings(settings)
             application.registerForRemoteNotifications()
         }
-
-//        FBLoginView.self
         
+        //UIImage.
+        
+        //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "yourImage.png"))
+
+        //
+//        UINavigationBar.appearance().barTintColor = UIColor(red: 234.0/255.0, green: 46.0/255.0, blue: 73.0/255.0, alpha: 0.0)
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
+
+//        UINavigationBar.appearance().setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
+//        UINavigationBar.appearance().shadowImage = UIImage()
+//        UINavigationBar.appearance().translucent = true
+        
+        //UIView.appearance().backgroundColor = UIColor.purpleColor()
+//        UINavigationBar.appearance().setBackgroundImage(UIImage(named: "LaunchBG"),forBarMetrics: .Default)
+        
+       // UIView.appearance().backgroundColor = UIColor.purpleColor()
+        
+       // UIImage(named: "navbar"
+
+   
         return true
     }
 

@@ -12,8 +12,14 @@ import Alamofire
 class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+//        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
+//        self.navigationBar.barStyle = UIBarStyle.Black
+//        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+//        self.navigationBar.tintColor = UIColor.whiteColor()
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.purpleColor()
     }
     
     override func didReceiveMemoryWarning() {

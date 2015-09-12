@@ -10,11 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Drunkly/AppDelegate.swift"
-            timestampString = "463736769.385076"
+            timestampString = "463755386.426546"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99">
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "application(_:didReceiveRemoteNotification:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
