@@ -37,7 +37,7 @@ class ChatViewController: JSQMessagesViewController, UICollectionViewDataSource,
         var user = PFUser.currentUser()
         self.senderId = user.objectId
         self.senderDisplayName = user[PF_USER_FULLNAME] as! String
-        
+            
         outgoingBubbleImage = bubbleFactory.outgoingMessagesBubbleImageWithColor(UIColor.jsq_messageBubbleBlueColor())
         incomingBubbleImage = bubbleFactory.incomingMessagesBubbleImageWithColor(UIColor.jsq_messageBubbleLightGrayColor())
         
