@@ -156,6 +156,14 @@
     [self setNeedsDisplay];
 }
 
+/*- (void)deleteBackward
+{
+//    [super deleteBackward];
+//    [super setTextAlignment:textAlignment];
+//    [self setNeedsDisplay];
+}
+ */
+
 #pragma mark - Drawing
 
 - (void)drawRect:(CGRect)rect

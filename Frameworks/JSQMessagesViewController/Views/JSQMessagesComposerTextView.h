@@ -17,12 +17,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MyTextField.h>
 
 /**
  *  An instance of `JSQMessagesComposerTextView` is a subclass of `UITextView` that is styled and used 
  *  for composing messages in a `JSQMessagesViewController`. It is a subview of a `JSQMessagesToolbarContentView`.
  */
-@interface JSQMessagesComposerTextView : UITextView
+@interface JSQMessagesComposerTextView : UITextField;
 
 /**
  *  The text to be displayed when the text view is empty. The default value is `nil`.

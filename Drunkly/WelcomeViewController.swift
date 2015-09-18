@@ -93,7 +93,12 @@ class WelcomeViewController: UIViewController {
                     }
                 })
                 
-                user[PF_USER_EMAILCOPY] = userData["email"]
+                
+                if (userData["email"] == nil ) {
+                    user[PF_USER_EMAILCOPY] = NSNull();
+                }else{
+                    user[PF_USER_EMAILCOPY] = userData["email"];
+                }
                 user[PF_USER_FULLNAME] = userData["name"]
                 user[PF_USER_FULLNAME_LOWER] = (userData["name"] as! String).lowercaseString
                 user[PF_USER_FACEBOOKID] = userData["id"]
