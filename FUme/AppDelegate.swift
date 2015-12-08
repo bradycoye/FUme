@@ -8,7 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         Parse.enableLocalDatastore()
-        Parse.setApplicationId("w1ZIivF1cjxqLnpwDPW2IC3lifzTlpL6RxJFS5VM", clientKey: "0N4TpsWNaCKZNn0JueQvz7Gm4F7A2Th0ofTmB0r1")
+        Parse.setApplicationId("mBaLjUJhoQaXpM9X6SKBKZscmxRIVOyeWPStpWxA", clientKey: "fk1F19kuD1WbeTNLmFeojcKtIznvRU1p2AwkaTVi")
         // PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         
         
