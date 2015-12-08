@@ -14,7 +14,6 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="xFB-eq-jJH" kind="relationship" relationship="viewControllers" id="NUk-1Y-9HS"/>
@@ -357,6 +356,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Messages" id="PgH-pR-mv5">
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="oKr-dk-sNJ">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="compose:" destination="xJh-IQ-Cb6" id="wNH-ZJ-Ldm"/>
                             </connections>
@@ -384,6 +384,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aRm-ia-TjV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="xJh-IQ-Cb6" kind="relationship" relationship="rootViewController" id="BXK-iS-o0H"/>
@@ -401,6 +404,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Q1-Az-JYt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="tGE-fG-8Z7" kind="relationship" relationship="rootViewController" id="NO2-fp-bW8"/>
@@ -410,7 +416,7 @@
             </objects>
             <point key="canvasLocation" x="-1094" y="-1084"/>
         </scene>
-        <!--Welcome-->
+        <!--Welcome View Controller-->
         <scene sceneID="T8C-T3-kFb">
             <objects>
                 <viewController storyboardIdentifier="welcomeVC" id="tGE-fG-8Z7" customClass="WelcomeViewController" customModule="FUme" customModuleProvider="target" sceneMemberID="viewController">
@@ -422,9 +428,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sA-e3-d2z">
-                                <rect key="frame" x="20" y="498" width="280" height="50"/>
-                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sA-e3-d2z">
+                                <rect key="frame" x="20" y="492" width="280" height="50"/>
+                                <color key="backgroundColor" red="0.90698371975916237" green="0.89618641247658293" blue="0.89753627960279103" alpha="0.15760749113475178" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="6fL-Lt-rRq"/>
                                 </constraints>
@@ -438,9 +444,9 @@
                                     <segue destination="cWU-bd-GZR" kind="push" id="5im-sL-aHV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVi-m8-Ujk">
-                                <rect key="frame" x="20" y="440" width="280" height="50"/>
-                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVi-m8-Ujk">
+                                <rect key="frame" x="20" y="434" width="280" height="50"/>
+                                <color key="backgroundColor" red="0.90698371975916237" green="0.88543209257997657" blue="0.89697835724555208" alpha="0.13513962765957446" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="d5H-Ji-KIU"/>
                                 </constraints>
@@ -454,41 +460,20 @@
                                     <segue destination="oHt-4D-Sgw" kind="push" id="09r-Z8-shZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Z6-GE-ZTG">
-                                <rect key="frame" x="20" y="382" width="280" height="50"/>
-                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="0aV-EH-XAK"/>
-                                </constraints>
-                                <state key="normal" title="Facebook Login"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="facebookLogin:" destination="tGE-fG-8Z7" eventType="touchUpInside" id="lAZ-Ef-Bkp"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qwh-VT-hbR">
-                                <rect key="frame" x="65" y="107" width="280" height="60"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fume.png" translatesAutoresizingMaskIntoConstraints="NO" id="DAg-tV-Ad7">
+                                <rect key="frame" x="-145" y="-89" width="611" height="716"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="8Z6-GE-ZTG" firstAttribute="trailing" secondItem="yVi-m8-Ujk" secondAttribute="trailing" id="3YW-mb-gAt"/>
                             <constraint firstItem="yVi-m8-Ujk" firstAttribute="centerX" secondItem="9Wk-Xc-VV5" secondAttribute="centerX" id="HJK-DP-Th4"/>
                             <constraint firstItem="5sA-e3-d2z" firstAttribute="top" secondItem="yVi-m8-Ujk" secondAttribute="bottom" constant="8" symbolic="YES" id="JdP-4j-q3A"/>
-                            <constraint firstItem="yVi-m8-Ujk" firstAttribute="leading" secondItem="8Z6-GE-ZTG" secondAttribute="leading" id="PWq-Ci-6ez"/>
                             <constraint firstItem="yVi-m8-Ujk" firstAttribute="trailing" secondItem="5sA-e3-d2z" secondAttribute="trailing" id="TvJ-yv-sDP"/>
-                            <constraint firstItem="8Z6-GE-ZTG" firstAttribute="leading" secondItem="9Wk-Xc-VV5" secondAttribute="leadingMargin" constant="4" id="caL-n2-KXB"/>
                             <constraint firstItem="5sA-e3-d2z" firstAttribute="leading" secondItem="yVi-m8-Ujk" secondAttribute="leading" id="eEg-aF-5QP"/>
                             <constraint firstAttribute="bottom" secondItem="5sA-e3-d2z" secondAttribute="bottom" constant="20" symbolic="YES" id="hGV-8T-JRr"/>
-                            <constraint firstItem="yVi-m8-Ujk" firstAttribute="top" secondItem="8Z6-GE-ZTG" secondAttribute="bottom" constant="8" symbolic="YES" id="jOd-Xu-pX0"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Welcome" id="4Z8-bw-nN2"/>
+                    <navigationItem key="navigationItem" id="4Z8-bw-nN2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e4o-8E-6Zy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -559,7 +544,7 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eq1-eQ-cyB">
                                                     <rect key="frame" x="20" y="5" width="280" height="50"/>
-                                                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.15294117647058825" green="0.12941176470588237" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                     <state key="normal" title="Register"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -649,7 +634,7 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQS-6N-Y4W">
                                                     <rect key="frame" x="20" y="5" width="280" height="50"/>
-                                                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.15294117647058825" green="0.12941176470588237" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <state key="normal" title="Login">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -727,7 +712,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X94-4d-DSv">
                                 <rect key="frame" x="20" y="218" width="280" height="50"/>
-                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.15294117647058825" green="0.12941176470588237" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="57w-DZ-tIA"/>
                                 </constraints>
@@ -793,6 +778,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lyt-7W-y1h">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -811,6 +799,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GIt-xs-K62">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -949,6 +940,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="a3b-mt-j9h">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -967,6 +961,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Vv-Pq-l18">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -985,6 +982,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="liS-Ab-nQz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1037,6 +1037,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fcK-8l-3do">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="3UX-w6-tqR" kind="relationship" relationship="rootViewController" id="XNH-Df-6aF"/>
@@ -1048,6 +1051,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Fume.png" width="696" height="695"/>
         <image name="profile_blank.png" width="70" height="70"/>
         <image name="tab_group.png" width="30" height="30"/>
         <image name="tab_messages.png" width="30" height="30"/>

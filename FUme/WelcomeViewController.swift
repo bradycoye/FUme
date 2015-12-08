@@ -6,7 +6,7 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-//        self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
+        self.navigationController?.navigationBar.hidden = true
 //        self.navigationBar.barStyle = UIBarStyle.Black
 //        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
 //        self.navigationBar.tintColor = UIColor.whiteColor()
