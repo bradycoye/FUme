@@ -1,5 +1,5 @@
-# Drunkly
-An Example iOS Chat Application with Parse, written in Swift
+# FUme
+Simple messaging app to demonstrate Parse Backend database and push notifications.
 
 ## Screenshots
 <img src="./Screenshots/screenshot1.png" alt="screenshot1" width="200" />
@@ -7,11 +7,4 @@ An Example iOS Chat Application with Parse, written in Swift
 <img src="./Screenshots/screenshot3.png" alt="screenshot3" width="200" />
 
 ## Overview
-This is a re-write of https://github.com/relatedcode/NotificationChat using Swift and Storyboards. Supports Facebook login.
-Uses Alamofire for Swift HTTP requests, and APAddressBook for easier address book contacts. Please Star this repo if you find it useful.
-
-## Installation
-- Clone the repository: https://github.com/huyouare/Drunkly.git
-- Open the cloned Drunkly repo folder in console
-- Run `pod install`
-- Open Drunkly.xcworkspace in XCode
+Uses https://github.com/relatedcode/NotificationChat Objective-C example. Written for my CSC-341 Database Management Systems class. Relational schema and diagram below.

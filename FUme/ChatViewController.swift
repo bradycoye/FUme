@@ -31,7 +31,7 @@ class ChatViewController: JSQMessagesViewController, UIActionSheetDelegate, UIIm
         let user = PFUser.currentUser()
         self.senderId = user.objectId
         self.senderDisplayName = user[PF_USER_FULLNAME] as! String
-        
+            
         
         //class Base {}
         //class Derived : Base {}
@@ -55,6 +55,7 @@ class ChatViewController: JSQMessagesViewController, UIActionSheetDelegate, UIIm
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
+        
         self.collectionView!.collectionViewLayout.springinessEnabled = true
         timer = NSTimer.scheduledTimerWithTimeInterval(5.0, target: self, selector: "loadMessages", userInfo: nil, repeats: true)
     }

@@ -13,6 +13,7 @@ class PrivateViewController: UITableViewController, UIActionSheetDelegate, MFMai
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "cleanup", name: NOTIFICATION_USER_LOGGED_OUT, object: nil)
     }
     
