@@ -106,6 +106,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ecO-Jm-ZgH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="7aU-Ji-GPy" kind="relationship" relationship="rootViewController" id="REB-pz-HcC"/>
@@ -237,6 +241,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PEL-GC-L5g">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="abJ-yQ-GBM" kind="relationship" relationship="rootViewController" id="QOh-CP-Add"/>
@@ -356,7 +364,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Messages" id="PgH-pR-mv5">
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="oKr-dk-sNJ">
-                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="compose:" destination="xJh-IQ-Cb6" id="wNH-ZJ-Ldm"/>
                             </connections>
@@ -369,7 +376,6 @@
                         <segue destination="pPU-x3-RF2" kind="modal" identifier="selectSingleSegue" id="CeS-gD-Xmz"/>
                         <segue destination="uqH-ZS-B4w" kind="modal" identifier="selectMultipleSegue" id="Klu-2m-QWy"/>
                         <segue destination="OAW-Rs-8sy" kind="modal" identifier="addressBookSegue" id="yr9-1T-P6H"/>
-                        <segue destination="8Ue-8h-Cig" kind="modal" identifier="facebookFriendsSegue" id="7iq-bM-a4b"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZe-PC-E0V" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -384,6 +390,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aRm-ia-TjV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
@@ -428,7 +435,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sA-e3-d2z">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fume.png" translatesAutoresizingMaskIntoConstraints="NO" id="DAg-tV-Ad7">
+                                <rect key="frame" x="-145" y="-89" width="611" height="716"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="611" id="mcm-I7-2Wt"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sA-e3-d2z">
                                 <rect key="frame" x="20" y="492" width="280" height="50"/>
                                 <color key="backgroundColor" red="0.90698371975916237" green="0.89618641247658293" blue="0.89753627960279103" alpha="0.15760749113475178" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -444,7 +457,7 @@
                                     <segue destination="cWU-bd-GZR" kind="push" id="5im-sL-aHV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVi-m8-Ujk">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVi-m8-Ujk">
                                 <rect key="frame" x="20" y="434" width="280" height="50"/>
                                 <color key="backgroundColor" red="0.90698371975916237" green="0.88543209257997657" blue="0.89697835724555208" alpha="0.13513962765957446" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -460,17 +473,18 @@
                                     <segue destination="oHt-4D-Sgw" kind="push" id="09r-Z8-shZ"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fume.png" translatesAutoresizingMaskIntoConstraints="NO" id="DAg-tV-Ad7">
-                                <rect key="frame" x="-145" y="-89" width="611" height="716"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="yVi-m8-Ujk" firstAttribute="leading" secondItem="9Wk-Xc-VV5" secondAttribute="leadingMargin" constant="4" id="Az9-0S-UWW"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="DAg-tV-Ad7" secondAttribute="bottom" constant="-59" id="DXd-d2-4oh"/>
                             <constraint firstItem="yVi-m8-Ujk" firstAttribute="centerX" secondItem="9Wk-Xc-VV5" secondAttribute="centerX" id="HJK-DP-Th4"/>
                             <constraint firstItem="5sA-e3-d2z" firstAttribute="top" secondItem="yVi-m8-Ujk" secondAttribute="bottom" constant="8" symbolic="YES" id="JdP-4j-q3A"/>
                             <constraint firstItem="yVi-m8-Ujk" firstAttribute="trailing" secondItem="5sA-e3-d2z" secondAttribute="trailing" id="TvJ-yv-sDP"/>
+                            <constraint firstItem="DAg-tV-Ad7" firstAttribute="top" secondItem="9Wk-Xc-VV5" secondAttribute="topMargin" constant="-89" id="YGE-6B-Qhh"/>
                             <constraint firstItem="5sA-e3-d2z" firstAttribute="leading" secondItem="yVi-m8-Ujk" secondAttribute="leading" id="eEg-aF-5QP"/>
-                            <constraint firstAttribute="bottom" secondItem="5sA-e3-d2z" secondAttribute="bottom" constant="20" symbolic="YES" id="hGV-8T-JRr"/>
+                            <constraint firstAttribute="bottom" secondItem="5sA-e3-d2z" secondAttribute="bottom" constant="26" id="hGV-8T-JRr"/>
+                            <constraint firstItem="DAg-tV-Ad7" firstAttribute="centerX" secondItem="yVi-m8-Ujk" secondAttribute="centerX" id="wq4-WZ-awH"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4Z8-bw-nN2"/>
@@ -778,6 +792,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lyt-7W-y1h">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
@@ -799,6 +814,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GIt-xs-K62">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
@@ -940,6 +956,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="a3b-mt-j9h">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
@@ -961,6 +978,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Vv-Pq-l18">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
@@ -982,6 +1000,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="liS-Ab-nQz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
@@ -995,41 +1014,6 @@
             </objects>
             <point key="canvasLocation" x="1406" y="1290"/>
         </scene>
-        <!--Facebook Friends-->
-        <scene sceneID="BVY-8c-vA8">
-            <objects>
-                <tableViewController id="3UX-w6-tqR" customClass="FacebookFriendsViewController" customModule="FUme" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" id="8wy-OO-xwS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="1nX-d3-FNA">
-                                <rect key="frame" x="0.0" y="86" width="320" height="50"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1nX-d3-FNA" id="0Sc-Ut-2Of">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="3UX-w6-tqR" id="lD3-8K-Seh"/>
-                            <outlet property="delegate" destination="3UX-w6-tqR" id="f6R-fL-VvN"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Facebook Friends" id="PJM-40-voT">
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="AYD-Wa-NWz">
-                            <connections>
-                                <action selector="cancelButtonPressed:" destination="3UX-w6-tqR" id="frg-gQ-OVf"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jh0-4z-wxI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1858" y="1956"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="kBs-xH-aqx">
             <objects>
@@ -1037,13 +1021,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fcK-8l-3do">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                     </navigationBar>
-                    <connections>
-                        <segue destination="3UX-w6-tqR" kind="relationship" relationship="rootViewController" id="XNH-Df-6aF"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dbX-EU-Evi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1059,6 +1041,6 @@
         <image name="tab_profile.png" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Rx5-ve-5Y3"/>
+        <segue reference="y1X-T3-N16"/>
     </inferredMetricsTieBreakers>
 </document>

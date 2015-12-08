@@ -88,7 +88,7 @@ class MessagesViewController: UITableViewController, UIActionSheetDelegate, Sele
     }
     
     @IBAction func compose(sender: UIBarButtonItem) {
-        var actionSheet = UIActionSheet(title: nil, delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Single recipient", "Multiple recipients", "Address Book", "Facebook Friends")
+        var actionSheet = UIActionSheet(title: nil, delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Single recipient", "Multiple recipients", "Address Book")
         actionSheet.showFromTabBar((self.tabBarController?.tabBar)!)
     }
 
@@ -125,8 +125,6 @@ class MessagesViewController: UITableViewController, UIActionSheetDelegate, Sele
                 self.performSegueWithIdentifier("selectMultipleSegue", sender: self)
             case 3:
                 self.performSegueWithIdentifier("addressBookSegue", sender: self)
-            case 4:
-                self.performSegueWithIdentifier("facebookFriendsSegue", sender: self)
             default:
                 return
             }
