@@ -13,7 +13,7 @@ struct Constants {
 
 let DEFAULT_TAB							= 0
 
-let MESSAGE_INVITE						= "Check out FUME on GitHub: https://github.com/huyouare/Drunkly"
+let MESSAGE_INVITE						= "https://github.com/bradycoye/FUme"
 
 /* Installation */
 let PF_INSTALLATION_CLASS_NAME			= "_Installation"           //	Class name

@@ -14,7 +14,6 @@
 		609FF2D31C16B113009103B5 /* Fume.png in Resources */ = {isa = PBXBuildFile; fileRef = 609FF2D21C16B113009103B5 /* Fume.png */; };
 		609FF2D51C16B3DE009103B5 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609FF2D41C16B3DE009103B5 /* Images-2.xcassets */; };
 		609FF2D71C16B486009103B5 /* iphone in Resources */ = {isa = PBXBuildFile; fileRef = 609FF2D61C16B486009103B5 /* iphone */; };
-		609FF2D91C16BC46009103B5 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 609FF2D81C16BC46009103B5 /* FacebookSDKStrings.bundle */; };
 		609FF2DB1C16BFE4009103B5 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609FF2DA1C16BFE4009103B5 /* ParseUI.framework */; };
 		6255F48A9544045E8AB00268 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E792D971850373ACD6EB87A /* Pods.framework */; };
 		8311CFF31AA97FDD0081674A /* AddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8311CFF21AA97FDD0081674A /* AddressBookViewController.swift */; };
@@ -56,7 +55,6 @@
 		839A20E01A99E207003248CE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839A20DF1A99E207003248CE /* Social.framework */; };
 		839A20E21A99E20D003248CE /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839A20E11A99E20D003248CE /* Accounts.framework */; };
 		839A20E41A99E244003248CE /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 839A20E31A99E244003248CE /* libstdc++.6.0.9.tbd */; };
-		839A20E91A99E372003248CE /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 839A20E61A99E372003248CE /* ProgressHUD.bundle */; };
 		839A20ED1A99E9D7003248CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A20EC1A99E9D7003248CE /* LoginViewController.swift */; };
 		83B4F5CB1AA17C0000C09791 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B4F5CA1AA17C0000C09791 /* MediaPlayer.framework */; };
 		83B4F5CF1AA2AD4600C09791 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4F5CE1AA2AD4600C09791 /* Camera.swift */; };
@@ -551,8 +549,6 @@
 				609FF2D51C16B3DE009103B5 /* Images-2.xcassets in Resources */,
 				6087C5C61C16AF7D00C8D9CB /* ios in Resources */,
 				831C19421A98085B000FD6D0 /* chat_blank@2x.png in Resources */,
-				839A20E91A99E372003248CE /* ProgressHUD.bundle in Resources */,
-				609FF2D91C16BC46009103B5 /* FacebookSDKStrings.bundle in Resources */,
 				83B8DB991AAA90AF00ADE3BB /* profile_blank@2x.png in Resources */,
 				831C19451A98085B000FD6D0 /* tab_group@2x.png in Resources */,
 				609FF2D71C16B486009103B5 /* iphone in Resources */,
@@ -755,7 +751,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: wade Coye (Z5MHH9DC93)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -811,8 +808,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: wade Coye (Z5MHH9DC93)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
