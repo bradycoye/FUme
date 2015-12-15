@@ -1,0 +1,6 @@
+framework module Pods_FUme {
+  umbrella header "Pods-FUme-umbrella.h"
+
+  export *
+  module * { export * }
+}
