@@ -8,3 +8,4 @@ Simple messaging app to demonstrate Parse Backend database and push notification
 
 ## Overview
 Uses https://github.com/relatedcode/NotificationChat Objective-C example. Written for my CSC-341 Database Management Systems class. Relational schema and diagram below.
+<img src="./Screenshots/ParseERD.png" alt="screenshot3"  width="200" />
